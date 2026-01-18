@@ -25,11 +25,11 @@ experience = st.number_input("Years of Experience",0.0,40.0,2.0)
 
 # ----------CREATE DATAFRAME ----------
 df = pd.Dataframe({
-    "Age": [age],
-    "Gender": [gender],
-    "Education Level": [education level],
-    "Job Title": [job title],
-    "Years of Experience": [experience]
+    "Age":[age],
+    "Gender":[gender],
+    "Education Level":[education],
+    "Job Title":[job],
+    "Years of Experience":[experience]
 })
 # ---------- PROJECT ----------
 if st.button("Predict Salary"):
