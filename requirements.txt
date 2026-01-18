@@ -1,6 +1,0 @@
-gradio
-numpy
-pandas
-scikit-learn
-xgboost
-
